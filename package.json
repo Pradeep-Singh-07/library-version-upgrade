@@ -1,7 +1,7 @@
 {
   "type": "module",
-  "name": "library-version-upgrade",
-  "version": "2.1.2",
+  "name": "dependency-updates-checker",
+  "version": "3.1.0",
   "description": "provide a package to update and get all the required updates in the package .json file (you must be using Yarn 3.x)",
   "main": "./main.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "bin": "./main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Psychobot-2/library-version-upgrade"
+    "url": "https://github.com/sakhiya07/library-version-upgrade"
   },
   "preferGlobal": true
 }

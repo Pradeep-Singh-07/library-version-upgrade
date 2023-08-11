@@ -1,8 +1,8 @@
-## library-version-upgrade
+## dependency-updates-checker
 
 
 ### Table of contents
-* [library-version-upgrade](#library-version-upgrade)
+* [dependency-updates-checker](#dependency-updates-checker)
 * [Overview](#overview)
 * [Install](#install)
 * [Usage](#usage)
@@ -14,25 +14,25 @@
 The aim of the project is to help with if there is a package in the dependency graph of your project and now if you want to update that then how much updations are needed for the direct dependencies of your project
  ### Install
 ```
-    npm install library-version-upgrade
+    npm install dependency-updates-checker
 ```
 OR
 ```
-    yarn add library-version-upgrade
+    yarn add dependency-updates-checker
 ```
 ---
 
 ### Usage
 ```
-    library-version-upgrade <dependencyName> <requiredVersion> 
+    dependency-updates-checker <dependencyName> <requiredVersion> 
 ```
 OR
 ```
-    node_modules/.bin/./library-version-upgrade <dependencyName> <requiredVersion> 
+    node_modules/.bin/./dependency-updates-checker <dependencyName> <requiredVersion> 
 ```
 OR 
 ```
-    npx library-version-upgrade <dependencyName> <requiredVersion> 
+    npx dependency-updates-checker <dependencyName> <requiredVersion> 
 ```
  This will provide with a list of all the packages (which are the dependencies of your project and are depended directly or indirectly on _dependency_) need to be updated and how much you need to update each of these packages , sometimes if all the versions of a package depends on a lower version of _dependency_ then this will be reported.
  ### Note 
@@ -52,10 +52,4 @@ OR
 * [semver](https://www.npmjs.com/package/semver)
 
 ---
-### Author Info 
 
-#### Pradeep Singh
-* Email- [pradeepanddhruv@gmail.com](mailto:pradeepanddhruv@gmail.com)
-* Github- [psychobot-2](https://github.com/psychobot-2)
-
----
